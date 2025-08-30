@@ -1,0 +1,8 @@
+Description=Run wallpaper change service every 10 minutes
+
+[Timer]
+OnBootSec=10min
+OnUnitActiveSec=10min
+
+[Install]
+WantedBy=timers.target

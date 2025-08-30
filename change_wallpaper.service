@@ -1,0 +1,7 @@
+Description=Change wallpaper every 10 minutes
+
+[Service]
+ExecStart=/bin/bash /home/saiatama1784/.config/hypr/scripts/change_wallpaper.sh
+
+[Install]
+WantedBy=default.target
